@@ -1,8 +1,8 @@
 class Settings:
     def __init__(self):
         #main
-        self.screen_width = 640
-        self.screen_height = 480
+        self.screen_width = 1280
+        self.screen_height = 700
         self.bg_color = (253, 171, 159)
         self.caption = "Space Shooters"
         
@@ -19,4 +19,9 @@ class Settings:
 
         #alien
         self.alien_image = "images/alien.bmp"
+        self.alien_speed = 1.0
+        self.fleet_drop_speed = 10
+        self.fleet_direction = 1
+
+    
 
